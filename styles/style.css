@@ -15,6 +15,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 
 }
 
@@ -36,10 +38,11 @@ nav .nav-section-1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 
 }
-.nav-li a{
+
+.nav-li a {
     padding-left: 15px;
 }
 
@@ -51,9 +54,11 @@ nav .nav-section-1 {
     padding-top: 5px;
     padding-right: 10px;
 }
-.nav-li>.fa-brands{
+
+.nav-li>.fa-brands {
     font-size: 20px;
 }
+
 .nav-image {
     width: 60px;
     height: 30px;
@@ -82,4 +87,75 @@ nav li a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: Linear;
+}
+
+/* *banner section */
+.banner-container {
+    display: flex;
+    background: #FFF;
+    margin-top: 150px;
+    margin-left: 200px;
+    fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+
+}
+
+.banner-image {
+    margin-left: 200px;
+    width: 20px;
+}
+
+.banner-title {
+    color: #0B0223;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.goat {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 95px;
+    font-weight: 800;
+}
+.icons-container{
+   padding-right: 40px;
+}
+.icons-container li {
+    list-style: none;
+    
+}
+
+.fa-solid {
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+.button-container {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.banner-btn-1 {
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 21px 40px;
+    border: none;
+    margin-right: 10px;
+}
+
+.banner-btn-2 {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 48px;
+    background: #4EC5F7;
+    padding: 21px 40px;
+    border: none;
 }
