@@ -235,18 +235,21 @@ body {
 .play-instantly-section {
     display: flex;
 }
-.play-instantly-texts{
+
+.play-instantly-texts {
     margin-left: 150px;
     text-align: right;
 }
+
 .play-instantly-texts h3 {
     font-size: 40px;
     font-weight: 700;
     line-height: 60px;
     margin-top: 200px;
-    
+
 }
-.play-instantly-section{
+
+.play-instantly-section {
     width: 1900px;
 }
 
@@ -263,14 +266,16 @@ body {
     font-weight: 400;
     line-height: 30px;
 }
-.play-instantly-img-1{
+
+.play-instantly-img-1 {
     margin-top: 100px;
     width: 400px;
     height: 450px;
     margin-left: 500px;
     margin-right: 500px;
 }
-.angela-photo{
+
+.angela-photo {
     width: 250px;
     height: 350px;
     padding: 40px;
@@ -278,4 +283,113 @@ body {
     position: relative;
     bottom: 250px;
     right: 200px;
+}
+
+/* *different games section */
+.box-1,
+.box-2,
+.box-3,
+.box-4,
+.box-5,
+.box-6,
+.box-7,
+.box-8,
+.box-9 {
+    display: flex;
+}
+
+.many-images p {
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.other-images-1 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+
+.other-images-2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    justify-content: center;
+}
+
+.box-1 {
+    margin-left: 100px;
+    margin-right: 10px;
+}
+
+.box-3 {
+    border-radius: 50px;
+    border: 1px solid red;
+    color: #FF42A5;
+}
+
+.other-images-2>.box-6,
+.box-7,
+.box-8,
+.box-9 {
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.box-1:hover {
+    border-radius: 50px;
+    border: 1px solid red;
+}
+
+.box-2:hover {
+    border-radius: 50px;
+    border: 1px solid red;
+}
+
+.box-3:hover {
+    border-radius: 50px;
+    border: 1px solid red;
+}
+
+.box-4:hover {
+    border-radius: 50px;
+    border: 1px solid red;
+}
+
+.box-5:hover {
+    border-radius: 50px;
+    border: 1px solid red;
+}
+
+.box-6:hover {
+    border-radius: 50px;
+    border: 1px solid red;
+}
+
+.box-7:hover {
+    border-radius: 50px;
+    border: 1px solid red;
+}
+
+.box-8:hover {
+    border-radius: 50px;
+    border: 1px solid red;
+}
+
+.box-9:hover {
+    border-radius: 50px;
+    border: 1px solid red;
+}
+.box-1,
+.box-2,
+.box-4,
+.box-5,
+.box-6,
+.box-7,
+.box-8,
+.box-9 {
+    border: 1px solid transparent;
 }
