@@ -1,143 +1,320 @@
 /* *mobile devices */
-@media screen and (max-width: 576px){
-    nav, .play-instantly-section{
+@media screen and (max-width: 576px) {
+
+    nav,
+    .play-instantly-section {
         flex-direction: column;
         align-items: start;
     }
-    .nav-section-1{
+
+    .nav-section-1 {
         width: 90%;
         padding-left: 0%;
     }
-    .nav-image{
+
+    .nav-image {
         margin-left: 50px;
     }
-    .nav-section-2> ul{
+
+    .nav-section-2>ul {
         flex-direction: column;
     }
-    .nav-section-2{
+
+    .nav-section-2 {
         margin-left: 50px;
     }
-    .nav-section-2 li{
+
+    .nav-section-2 li {
         font-size: 20px;
         margin-top: 10px;
     }
-    .nav-li{
+
+    .nav-li {
         border-radius: 40px;
         width: 200px;
         height: 50px;
-    }   
-    .nav-section-2 .nav-li{
-        margin-top: 30px;
-    
     }
-    .banner-container{
+
+    .nav-section-2 .nav-li {
+        margin-top: 30px;
+
+    }
+
+    .banner-container {
         flex-direction: column;
         width: 300px;
         margin-top: 50px;
         margin-left: 10px;
     }
-    .banner-title{
+
+    .banner-title {
         text-align: left;
         margin-block-start: 5px;
         font-size: 40px;
         padding-left: 5px;
         margin-left: 5px;
     }
-    .banner-container img{
+
+    .banner-container img {
         width: 300px;
     }
-    .banner-btn-1{
+
+    .banner-btn-1 {
         padding: 20px 30px;
         font-size: 10px;
     }
-    .banner-btn-2{
+
+    .banner-btn-2 {
         padding: 20px 30px;
         font-size: 10px;
     }
-    .banner-image{
+
+    .banner-image {
         margin-left: 5px;
     }
-    .online-games-title{
+
+    .online-games-title {
         text-align: left;
         font-size: 25px;
         margin-left: 5px;
     }
-    .funny-videos{
+
+    .funny-videos {
         font-size: 25px;
     }
-    .online-games-text p{
+
+    .online-games-text p {
         text-align: left;
         font-size: 14px;
     }
-    .online-games-image{
+
+    .online-games-image {
         flex-direction: column;
     }
-    .games-image-1{
+
+    .games-image-1 {
         margin-left: 5px;
     }
-    .games-caption{
+
+    .games-caption {
         margin-left: 5px;
         font-size: 12px;
     }
-    .play-instantly{
+
+    .play-instantly {
         font-size: 40px;
     }
-    .play-instantly-texts{
+
+    .play-instantly-texts {
         margin-left: 5px;
         text-align: left;
     }
-    .play-instantly-texts h3{
+
+    .play-instantly-texts h3 {
         font-size: 40px;
         margin-top: 50px;
     }
-      .play-instantly-texts p{
+
+    .play-instantly-texts p {
         font-size: 17px;
-      }
-      .play-instantly-img-1{
+    }
+
+    .play-instantly-img-1 {
         margin-top: 40px;
         margin-left: 5px;
-        width:350px;
+        width: 350px;
         height: 400px;
-      }
-      .angela-photo{
+    }
+
+    .angela-photo {
         width: 90px;
         height: 100px;
         margin-left: 80px;
-      }
-      .box-1, .box-2, .box-3{
+    }
+
+    .box-1,
+    .box-2,
+    .box-3 {
         margin-left: 5px;
         margin-right: 5px;
-      }
-      .many-images p{
+    }
+
+    .many-images {
+        width: 420px;
+        margin-top: 30px;
+    }
+
+    .many-images p {
         font-size: 10px;
-      }
-      footer{
-        width: 576px;
-      }
-      .footer-logo{
-        padding-left: 10px;
-      }
-      .footer-paragraph{
-        padding-left: 10px;
-        font-size: 5px;
-      }
-      .footer-paragraph ul{
-        gap: 30px;
-      }
-      .footer-paragraph li {
+    }
+
+    .many-images div {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 5px;
+        width: fit-content;
+    }
+
+    footer {
+        width: 425px;
+        height: 600px;
+    }
+
+    .footer-logo {
+        padding-left: 10px;
+    }
+
+    .footer-paragraph {
+        padding-left: 10px;
+        font-size: 5px;
+    }
+
+    .footer-paragraph ul {
+        gap: 10px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .social-media-links {
+        padding-left: 20px;
+        font-size: 25px;
+    }
+
+    .term-condition {
+        padding-left: 5px;
+    }
+
+    .term-condition ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .copyright {
+        padding-left: 80px;
+        padding-top: 30px;
+    }
+
+    .copyright small {
+        font-size: 15px;
+    }
+
+}
+
+/* *tablet devices */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    header {
+        width: 750px;
+        height: 1600px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .nav-image {
+        margin-left: 150px;
+    }
+
+    .banner-container {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5px;
+    }
+
+    .banner-title {
+        text-align: left;
+    }
+
+    .banner-image {
+        margin-left: 5px;
+    }
+
+    .banner-container img {
+        margin-top: 100px;
+        width: 500px;
+    }
+
+    .online-games-title {
+        text-align: left;
+        font-size: 35px;
+
+    }
+
+    .funny-videos {
+        font-size: 35px;
+    }
+
+    .online-games-text p {
+        text-align: left;
+    }
+
+    .online-games-section>.online-games-image {
+        display: flex;
+        flex-direction: column;
+    }
+    .games-image-1 {
+        margin-left: 5px;
+    }
+    .online-games-image p{
+        font-size: 15px;
+    }
+    .play-instantly-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .play-instantly-texts {
+        margin-left: 10px;
+        text-align: left;
+    }
+    .play-instantly-texts h3{
+        margin-top: 100px;
+    }
+    .play-instantly-img-1 {
+        margin-left: 80px;
+        margin-top: 50px;
+    }
+    .angela-photo{
+        margin-left: 120px;
+    }
+    .games-image-3> .btn{
+        margin-right: 1000px;
+    }
     
-      }
+    footer {
+        width: 760px;
+        height: 500px;
+    }
 
-
-
-
-
-
-
-
+    .many-images{
+        width: 760px;
+    }
+    .many-images p{
+        font-size: 10px;
+    }
+    .many-images .box-1{
+        margin-left: 5px;
+    }
+    .footer-logo{
+        padding-left: 300px;
+    }
+    .footer-paragraph{
+        padding-left: 5px;
+    }
+    .footer-paragraph li{
+        font-size: 15px;
+    }
+    .social-media-links{
+        padding-left: 300px;
+        font-size: 30px;
+    }
+    .term-condition {
+        padding-left: 60px;
+        font-size: 15px;
+    }
+    .copyright{
+        padding-left: 200px;
+    }
 
 
 }
